@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/jay/Projects/Study_CI/251221_Cbasic/251225_02_condition/condition'
+relocations:     []
+...
