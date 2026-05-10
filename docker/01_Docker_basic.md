@@ -44,6 +44,15 @@ ref : https://www.youtube.com/watch?v=LXJhA3VWXFA
 * 실행되고 있는 application 상태 : dockerfiles, node.js, app.js, assets, dependencies
 
 #### 3-3. Container : Image를 독립된 환경에서 실행시키는 곳 [6:20]
+* 실제로 각각 동작하는 container를 만들 수 있음
+> (1) Shipping containers : 어떻게 이미지를 배포할 수 있는지
+> * Local(Container Engine(docker)가 설치된) -> Image 생성 -> PUSH -> Container Registry(e.g., GitHub)
+> * Container Registry(e.g., GitHub) -> PULL -> Server(Container Engine(docker)가 설치된) -> RUN
 
+> (2) Container Registry(e.g., GitHub) 의 종류
+> * Public : Docker hub, Red hat, GitHub packages
+> * Private (회사에서 주로 사용) : AWS, Google Cloud, MS Azure
+
+* 예제 : https://github.com/dream-ellie/docker-example/
 
 
