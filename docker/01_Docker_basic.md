@@ -2,7 +2,6 @@
 * ref #1 [Youtube 드림코딩](https://www.youtube.com/watch?v=LXJhA3VWXFA)
 * ref #2 [인프런 - 개발자를 위한 쉬운 도커](https://www.inflearn.com/course/%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%89%AC%EC%9A%B4-%EB%8F%84%EC%BB%A4/dashboard?cid=332726)
 
-
 ### 1. Docker란
 * Host OS 자원을 이용하며, Container 가상화를 위한 수단
 * container > Application, System Tools, Dependencies, Assets 
