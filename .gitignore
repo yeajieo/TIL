@@ -7,3 +7,6 @@ node_modules/
 # macOS
 .DS_Store
 
+# pdf
+docker\practice_pdf\
+
