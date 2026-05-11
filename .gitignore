@@ -8,5 +8,5 @@ node_modules/
 .DS_Store
 
 # pdf
-/docker/practice_pdf/
+docker/practice_pdf/*.pdf
 
