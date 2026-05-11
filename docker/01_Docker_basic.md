@@ -1,8 +1,10 @@
 # Docker
-ref : https://www.youtube.com/watch?v=LXJhA3VWXFA
+* ref #1 [Youtube 드림코딩](https://www.youtube.com/watch?v=LXJhA3VWXFA)
+* ref #2 [인프런 - 개발자를 위한 쉬운 도커](https://www.inflearn.com/course/%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%89%AC%EC%9A%B4-%EB%8F%84%EC%BB%A4/dashboard?cid=332726)
+
 
 ### 1. Docker란
-* 앱을 패키징 
+* Host OS 자원을 이용하며, Container 가상화를 위한 수단
 * container > Application, System Tools, Dependencies, Assets 
 * container를 Windows, Mac, Linux에 배포
 * e.g., local -> app.js (여기에 관련된 node.js/npm/Configs/Dependencies) -> Server
@@ -15,7 +17,9 @@ ref : https://www.youtube.com/watch?v=LXJhA3VWXFA
 |----------------------------------------------------------------------------|
 | Virtual Machine1 /  Virtual Machine2 / Virtual Machine3                    |
 | Hypervisor (VMware, virtualBox) |
+| Host OS |
 | Infrastructure (클라우드, 데이터베이스) |
+* **Guest OS(kernal) -> Hypervisor -> Host OS(kernal) -> Server** 
 * 장점 : MAC 운영체제에서 Windows와 Linux를 동시에 운영 가능
 * 단점 : 무겁고, 자원을 많이 잡아먹음 -> 이러한 단점으로 경량화 된 컨셉이 **Container**
 
@@ -26,6 +30,7 @@ ref : https://www.youtube.com/watch?v=LXJhA3VWXFA
 | Container Engine (설치 필요) |
 | Host OS |
 | Infrastructure (클라우드, 데이터베이스) |
+* **Container -> Host OS(kernal) -> Server**
 * 장점 #1 container engine 설치를 통해, 각각의 고립된 환경에서 container 작동
 * 장점 #2 container에서 운영체제를 포함하지 않고 작동, container engine에서 Host OS를 공유하며 진행 -> container engine 중 대표적인 것이 **docker**
 
@@ -52,7 +57,5 @@ ref : https://www.youtube.com/watch?v=LXJhA3VWXFA
 > (2) Container Registry(e.g., GitHub) 의 종류
 > * Public : Docker hub, Red hat, GitHub packages
 > * Private (회사에서 주로 사용) : AWS, Google Cloud, MS Azure
-
-* 예제 : https://github.com/dream-ellie/docker-example/
 
 
